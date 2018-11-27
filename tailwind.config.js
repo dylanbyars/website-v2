@@ -193,6 +193,10 @@ module.exports = {
   */
 
   fonts: {
+    'db': [
+      'Comfortaa',
+      'system-ui',
+    ],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',
@@ -259,6 +263,10 @@ module.exports = {
     '3xl': '1.875rem',  // 30px
     '4xl': '2.25rem',   // 36px
     '5xl': '3rem',      // 48px
+    'big': '5vw',
+    'huge': '8vw',
+    'massive': '11vw',
+    'enormous': '14vw',
   },
 
 
@@ -573,6 +581,7 @@ module.exports = {
 
   minHeight: {
     '0': '0',
+    'half': '50vh',
     'full': '100%',
     'screen': '100vh'
   },

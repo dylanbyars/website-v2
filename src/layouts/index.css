@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,700');
+
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
@@ -3057,6 +3059,10 @@ table {
   clear: both;
 }
 
+.font-db {
+  font-family: Comfortaa, system-ui;
+}
+
 .font-sans {
   font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -3795,6 +3801,10 @@ table {
 
 .min-h-0 {
   min-height: 0;
+}
+
+.min-h-half {
+  min-height: 50vh;
 }
 
 .min-h-full {
@@ -5897,6 +5907,22 @@ table {
   font-size: 3rem;
 }
 
+.text-big {
+  font-size: 5vw;
+}
+
+.text-huge {
+  font-size: 8vw;
+}
+
+.text-massive {
+  font-size: 11vw;
+}
+
+.text-enormous {
+  font-size: 14vw;
+}
+
 .italic {
   font-style: italic;
 }
@@ -6265,20 +6291,35 @@ table {
   z-index: auto;
 }
 
-/**
-  * Here you would add any custom utilities you need that don't come out of the
-  * box with Tailwind.
-  *
-  * Example :
-  *
-  * .bg-pattern-graph-paper { ... }
-  * .skew-45 { ... }
-  *
-  * Or if using a preprocessor or `postcss-import`:
-  *
-  * @import "utilities/background-patterns";
-  * @import "utilities/skew-transforms";
-  */
+/* custom */
+
+.blur {
+  filter: blur(5px);
+}
+
+.blur-light {
+  filter: blur(2px);
+}
+
+.trans {
+  transition: all .25s;
+}
+
+.trans-slow {
+  transition-duration: .5s;
+}
+
+.trans-slower {
+  transition-duration: .5s;
+}
+
+.trans-fast {
+  transition-duration: .15s;
+}
+
+.trans-faster {
+  transition-duration: .075s;
+}
 
 @media (min-width: 576px) {
   .sm\:list-reset {
@@ -8652,6 +8693,10 @@ table {
     clear: both;
   }
 
+  .sm\:font-db {
+    font-family: Comfortaa, system-ui;
+  }
+
   .sm\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
@@ -9390,6 +9435,10 @@ table {
 
   .sm\:min-h-0 {
     min-height: 0;
+  }
+
+  .sm\:min-h-half {
+    min-height: 50vh;
   }
 
   .sm\:min-h-full {
@@ -11474,6 +11523,22 @@ table {
 
   .sm\:text-5xl {
     font-size: 3rem;
+  }
+
+  .sm\:text-big {
+    font-size: 5vw;
+  }
+
+  .sm\:text-huge {
+    font-size: 8vw;
+  }
+
+  .sm\:text-massive {
+    font-size: 11vw;
+  }
+
+  .sm\:text-enormous {
+    font-size: 14vw;
   }
 
   .sm\:italic {
@@ -14217,6 +14282,10 @@ table {
     clear: both;
   }
 
+  .md\:font-db {
+    font-family: Comfortaa, system-ui;
+  }
+
   .md\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
@@ -14955,6 +15024,10 @@ table {
 
   .md\:min-h-0 {
     min-height: 0;
+  }
+
+  .md\:min-h-half {
+    min-height: 50vh;
   }
 
   .md\:min-h-full {
@@ -17039,6 +17112,22 @@ table {
 
   .md\:text-5xl {
     font-size: 3rem;
+  }
+
+  .md\:text-big {
+    font-size: 5vw;
+  }
+
+  .md\:text-huge {
+    font-size: 8vw;
+  }
+
+  .md\:text-massive {
+    font-size: 11vw;
+  }
+
+  .md\:text-enormous {
+    font-size: 14vw;
   }
 
   .md\:italic {
@@ -19782,6 +19871,10 @@ table {
     clear: both;
   }
 
+  .lg\:font-db {
+    font-family: Comfortaa, system-ui;
+  }
+
   .lg\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
@@ -20520,6 +20613,10 @@ table {
 
   .lg\:min-h-0 {
     min-height: 0;
+  }
+
+  .lg\:min-h-half {
+    min-height: 50vh;
   }
 
   .lg\:min-h-full {
@@ -22604,6 +22701,22 @@ table {
 
   .lg\:text-5xl {
     font-size: 3rem;
+  }
+
+  .lg\:text-big {
+    font-size: 5vw;
+  }
+
+  .lg\:text-huge {
+    font-size: 8vw;
+  }
+
+  .lg\:text-massive {
+    font-size: 11vw;
+  }
+
+  .lg\:text-enormous {
+    font-size: 14vw;
   }
 
   .lg\:italic {
@@ -25347,6 +25460,10 @@ table {
     clear: both;
   }
 
+  .xl\:font-db {
+    font-family: Comfortaa, system-ui;
+  }
+
   .xl\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
@@ -26085,6 +26202,10 @@ table {
 
   .xl\:min-h-0 {
     min-height: 0;
+  }
+
+  .xl\:min-h-half {
+    min-height: 50vh;
   }
 
   .xl\:min-h-full {
@@ -28169,6 +28290,22 @@ table {
 
   .xl\:text-5xl {
     font-size: 3rem;
+  }
+
+  .xl\:text-big {
+    font-size: 5vw;
+  }
+
+  .xl\:text-huge {
+    font-size: 8vw;
+  }
+
+  .xl\:text-massive {
+    font-size: 11vw;
+  }
+
+  .xl\:text-enormous {
+    font-size: 14vw;
   }
 
   .xl\:italic {

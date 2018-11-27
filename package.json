@@ -4,10 +4,15 @@
   "version": "1.0.0",
   "author": "Dylan Byars <dylan@dylanbyars.com>",
   "dependencies": {
+    "axios": "^0.18.0",
+    "b-jsonp": "^1.2.0",
+    "classnames": "^2.2.6",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.8",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-icons-kit": "^1.2.1",
+    "react-spinners": "^0.4.7"
   },
   "keywords": [
     "gatsby",
@@ -19,11 +24,13 @@
   "scripts": {
     "build:css": "tailwind build ./src/layouts/index.tailwind.css -c ./tailwind.config.js -o ./src/layouts/index.css",
     "build": "npm run build:css && purgecss -c ./purgecss.config.js -o ./src/layouts && gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "npm run build:css && gatsby develop",
     "format": "prettier --write src/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.14.2",
     "purgecss": "^1.0.1",
     "tailwindcss": "^0.6.5"
