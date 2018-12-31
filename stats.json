@@ -1,20 +1,28 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-666bc074f1b182730e81.js",
-      "component---src-pages-index-js-666bc074f1b182730e81.js.map"
+      "component---src-pages-index-js-f652a56659ca350ade93.js",
+      "component---src-pages-index-js-f652a56659ca350ade93.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---weather": [
+      "path---weather-a0e39f21c11f6a62c5ab.js",
+      "path---weather-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-periodic-table-js": [
       "component---src-pages-periodic-table-js-99538e067075dff62847.js",
       "component---src-pages-periodic-table-js-99538e067075dff62847.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b89a50cd917a1ebfc897.js",
-      "component---src-layouts-index-js-b89a50cd917a1ebfc897.js.map"
+      "component---src-layouts-index-js-51ef73394e6662bf887f.js",
+      "component---src-layouts-index-js-51ef73394e6662bf887f.js.map"
+    ],
+    "component---src-pages-weather-js": [
+      "component---src-pages-weather-js-4040c584bd73bd121367.js",
+      "component---src-pages-weather-js-4040c584bd73bd121367.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -37,9 +45,9 @@
       "path---periodic-table-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-91436426a560a78fb89b.js",
+      "app-1bbc8f55f114eb22cccd.js",
       "build-js-styles.css",
-      "app-91436426a560a78fb89b.js.map",
+      "app-1bbc8f55f114eb22cccd.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
